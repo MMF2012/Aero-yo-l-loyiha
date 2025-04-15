@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Yo'l loyiha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Aero yo'l loyiha</h1>
+        <div class="nav-buttons">
+            <button class="nav-btn" id="homeBtn">Главная</button>
+            <button class="nav-btn" id="aboutBtn">О нас</button>
+            <button class="nav-btn" id="reviewsBtn">Отзывы</button>
+        </div>
+    </header>
+
+    <section class="content" id="home">
+        <div class="certificate">
+            <img src="https://aeroyolloyiha.uz/img/970x647/01.jpg" alt="Сертификат ООО" class="image-modal-trigger">
+            <h2>Регистрация Общества с Ограниченной Ответственностью</h2>
+        </div>
+        <div class="certificate">
+            <img src="https://aeroyolloyiha.uz/img/970x647/02.jpg" alt="Архитектура Лицензия" class="image-modal-trigger">
+            <h2>Лицензия на разработку архитектурно-градостроительной документации</h2>
+        </div>
+        <div class="certificate">
+            <img src="https://aeroyolloyiha.uz/img/970x647/03.jpg" alt="Astraia Сертификат" class="image-modal-trigger">
+            <h2>Проектирование объектов транспорта и дорожного строительства</h2>
+            <p>Проектирование инженерных сетей и систем. Разработка проектно-сметной документации на строительство, реконструкцию и ремонт автомобильных дорог общего пользования. Проектирование особо опасных и потенциально опасных производств.</p>
+        </div>
+    </section>
+
+    <div id="aboutModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" id="closeAboutBtn">&times;</span>
+            <h2>О нас</h2>
+            <p>Мы — компания, специализирующаяся на проектировании объектов инфраструктуры, таких как дороги, транспортные системы, и инженерные сети. Мы обеспечиваем качественную разработку архитектурно-градостроительной документации, а также проектируем особо опасные и потенциально опасные производственные объекты.</p>
+            <p>Наша миссия — предоставление высококачественных услуг по проектированию для устойчивого развития и безопасности инфраструктуры в Узбекистане и других странах СНГ.</p>
+        </div>
+    </div>
+
+    <div id="reviewsModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" id="closeReviewsBtn">&times;</span>
+            <h2>Отзывы</h2>
+            <p><strong>Азим Иброхим</strong>, Министр транспорта Республики Таджикистан:</p>
+            <img src="https://aeroyolloyiha.uz/img/tj.jpg" alt="Отзыв">
+            <p>"Компания проделала отличную работу в проектировании объектов транспортной инфраструктуры. Мы высоко ценим их профессионализм и внимание к деталям. Их проекты соответствуют самым строгим стандартам безопасности и качества."</p>
+        </div>
+    </div>
+
+    <div id="imageModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" id="closeImageBtn">&times;</span>
+            <img id="modalImage" src="" alt="Image" style="width: 100%;">
+        </div>
+    </div>
+
+    <footer>
+        <h2>Контакты</h2>
+        <p>Телефон: +998781222829</p>
+        <p>Телефон: +998994857550</p>
+        <p>Email: <a href="mailto:aerodor@list.ru">aerodor@list.ru</a></p>
+        <p>Локация: Узбекистан, город Ташкент, ул. Паркентская 243, 58</p>
+    </footer>
+
+    <div class="bottom-image"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
